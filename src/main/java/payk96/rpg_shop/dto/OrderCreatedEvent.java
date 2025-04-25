@@ -1,4 +1,4 @@
-package payk96.notification.dto;
+package payk96.rpg_shop.dto;
 
 import java.time.LocalDateTime;
 import java.util.List;

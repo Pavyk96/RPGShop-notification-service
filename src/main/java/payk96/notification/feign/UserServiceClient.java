@@ -8,7 +8,7 @@ import payk96.notification.dto.UserRequest;
 @FeignClient(name = "user-service", url = "${user-service.url}")
 public interface UserServiceClient {
 
-    @GetMapping("/auth/user/{id}")
+    @GetMapping("/api/user/{id}")
     UserRequest getUserById(@PathVariable("id") String id);
 }
 

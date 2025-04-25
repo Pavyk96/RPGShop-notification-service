@@ -1,13 +1,12 @@
 package payk96.notification.service;
 
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.stereotype.Service;
-import payk96.notification.dto.OrderCreatedEvent;
 import payk96.notification.dto.UserRequest;
 import payk96.notification.feign.UserServiceClient;
+import payk96.rpg_shop.dto.OrderCreatedEvent;
 
 @Service
 @RequiredArgsConstructor
