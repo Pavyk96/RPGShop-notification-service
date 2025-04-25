@@ -9,7 +9,7 @@ import org.springframework.kafka.config.ConcurrentKafkaListenerContainerFactory;
 import org.springframework.kafka.core.ConsumerFactory;
 import org.springframework.kafka.core.DefaultKafkaConsumerFactory;
 import org.springframework.kafka.support.serializer.JsonDeserializer;
-import payk96.notification.dto.OrderCreatedEvent;
+import payk96.rpg_shop.dto.OrderCreatedEvent;
 
 import java.util.HashMap;
 
