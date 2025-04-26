@@ -49,6 +49,7 @@ public class EmailNotificationService {
 
     private void sendEmail(String to, String subject, String body) {
         SimpleMailMessage message = new SimpleMailMessage();
+        message.setFrom("winterboyyy@yandex.ru");
         message.setTo(to);
         message.setSubject(subject);
         message.setText(body);
